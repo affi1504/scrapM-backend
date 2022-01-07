@@ -2,8 +2,6 @@ import { IsBoolean, IsEmail, IsEnum, IsMobilePhone, IsNotEmpty, Matches, MaxLeng
 import { Role } from 'src/enums/role.enum';
 
 export class UpdateUserDto{
-    
-  id: number;
   
   @IsNotEmpty()
   @MinLength(4)

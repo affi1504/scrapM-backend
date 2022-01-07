@@ -10,7 +10,7 @@ import DatabaseConfig from './config/Database.config';
       isGlobal: true,
     }), 
     TypeOrmModule.forRoot(DatabaseConfig),
-     UsersModule, 
+     UsersModule,
   ]
 })
 export class AppModule {}
